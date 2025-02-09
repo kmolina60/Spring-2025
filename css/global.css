@@ -1,0 +1,20 @@
+/* Colors */
+
+/*
+60% of #DBA024 - Primary
+30% of #BBDB24- Secondary
+10% of #DB4424 - Accent
+*/
+
+:root {
+
+/* var(--primaryColor) !important; */
+--primaryColor: #DBA024;
+
+/* var(--primaryColor) !important; */
+--secondaryColor: #BBDB24;
+
+/* var(--primaryColor) !important; */
+--accentColor: #DB4424;
+
+}

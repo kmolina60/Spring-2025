@@ -43,3 +43,18 @@
 .col:nth-of-type(9) {
     background-color: rgb(255, 128, 0);
 }
+
+
+.col:nth-of-type(10) {
+    background-color: rgb(255, 132, 181);
+}
+
+
+.col:nth-of-type(11) {
+    background-color: rgb(255, 0, 0);
+}
+
+
+.col:nth-of-type(12) {
+    background-color: rgb(109, 64, 49);
+}

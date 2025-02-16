@@ -1,2 +1,7 @@
 @import 'glob;.css';
 @import 'main.css';
+
+.col {
+    border: 1px solid black
+    
+}

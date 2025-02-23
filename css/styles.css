@@ -11,5 +11,5 @@ body {
 }
 
 .blinn-fa-container {
-    background-color: #DBA024 !important;
+    background-color: var(--primaryColor) !important;
 }

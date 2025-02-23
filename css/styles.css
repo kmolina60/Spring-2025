@@ -2,5 +2,5 @@
 @import 'main.css';
 
 body {
-    font-family: var(--fontFamilly) !important;
+    font-family: var(--fontFamily) !important;
 }

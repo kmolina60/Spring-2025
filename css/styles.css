@@ -1,60 +1,6 @@
 @import 'glob;.css';
 @import 'main.css';
 
-.col {
-    border: 1px solid black
-
-}
-
-.col:nth-of-type(2) {
-    background-color: blue;
-}
-
-.col:nth-of-type(3) {
-    background-color: rgb(220, 227, 81);
-}
-
-
-.col:nth-of-type(4) {
-    background-color: rgb(60, 141, 234);
-}
-
-
-.col:nth-of-type(5) {
-    background-color: rgb(0, 255, 247);
-}
-
-
-.col:nth-of-type(6) {
-    background-color: rgb(187, 0, 255);
-}
-
-
-.col:nth-of-type(7) {
-    background-color: rgb(255, 0, 153);
-}
-
-
-.col:nth-of-type(8) {
-    background-color: rgb(149, 255, 0);
-}
-
-
-.col:nth-of-type(9) {
-    background-color: rgb(255, 128, 0);
-}
-
-
-.col:nth-of-type(10) {
-    background-color: rgb(255, 132, 181);
-}
-
-
-.col:nth-of-type(11) {
-    background-color: rgb(255, 0, 0);
-}
-
-
-.col:nth-of-type(12) {
-    background-color: rgb(109, 64, 49);
+body {
+    font-family: var(--fontFamilly) !important;
 }

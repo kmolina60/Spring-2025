@@ -23,7 +23,7 @@ padding: 50px;
     position: relative;
     float: right;
     max-width: 350px;
-    width:auto;
+    width: 100%;
     height: auto;
     padding-left: 15px;
 }
@@ -34,4 +34,6 @@ padding: 50px;
     height: 280px;
     background-color: var(--secondaryColor) !important;
     clip-path: polygon(0 0, 0 30%, 100% 0);
+    position: relative;
+    margin-top: -5px;
 }

@@ -27,7 +27,7 @@ blockquote::before {
     display: block;
     padding-left: 10px;
     font-size: 80px;
-    position: absolute:absolute
+    position: absolute;
     left: -20px;
     top: -20px;
     color: var(--accentColor) !important;
@@ -42,5 +42,5 @@ margin-top: 5px;
 }
 
 blockquote::before {
-    content: "\2014 \2009":
+    content: "\2014 \2009";
 }

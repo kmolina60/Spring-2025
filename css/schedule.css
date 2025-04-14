@@ -22,3 +22,29 @@
     width: 100%;
     max-width: 100px;
 }
+
+.content-table {
+    border-collapse: collapse;
+    width:100%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.content-table thead tr th {
+    background-color: var(--primaryColor) !important;
+    color: #ffffff;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}

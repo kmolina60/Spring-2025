@@ -30,12 +30,57 @@
 <div class="web-form">
 <form>
     <div class="row">
-
 <!-- first name -->
     <div>
         <label for="first-name">First Name</label>
         <input type="text" id="first-name" name="firstName"/>
     </div>
+
+    <!-- last name -->
+    <div>
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" name="lastName"/>
+    </div>
+
+    <!-- Age - number -->
+     <div>
+<label for="age">Age</label>
+<input types="number" name="age" id="age" min="18" max="120"/>
+</div>
+
+<!-- Email - email -->
+ <div>
+    <lable for="email">Email</lable>
+    <input type="email" name="email" />
+ </div>
+
+<!-- phone -->
+ <div>
+    <label for="phone">Phone</label>
+    <input type="text" name="phone" placeholder="(###) ###-####" />
+ </div>
+
+<!-- Start Date - date -->
+ <div>
+    <label for="start-date">Start Date</label>
+    <input type="date" name="startDate" required />
+ </div>
+
+<!-- Tshirt - Select field -->
+<div>
+    <label for="t-shirt">T-Shirt Size</label>
+    <select id="t-shirt" required>
+        <option value="">Select T-shirt Size</option>
+        <option value="XXS">XXS</option>
+        <option value="XS">XS</option>
+        <option value="S">S</option>
+        <option value="M">M</option>
+        <option value="L">L</option>
+        <option value="XL">XL</option>
+        <option value="XXL">XXL</option>
+    </select>
+    <input type="text" name="custom" value="Please input a custom size" disabled />
+</div>
 
 <!-- submit button -->
  <div>
@@ -61,6 +106,10 @@
 
 <!-- Local JS File With Footer -->
 <script src="components/js/footer.js"></script>
+
+
+<!-- local js file for form -->
+ <script src="/js/form.js"></script>
   </section>
 </body>
 </html>

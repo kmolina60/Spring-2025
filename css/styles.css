@@ -21,6 +21,11 @@ padding: 50px;
 
 .paragraph-one-img {
     position: relative;
+    top: 30px;
+}
+
+.paragraph-one-img {
+    position: relative;
     float: right;
     max-width: 350px;
     width: 100%;
@@ -45,4 +50,9 @@ padding: 50px;
     border: 10px solid var(--accentColor) !important;
     border-radius: 50%;
     clip-path: circle(50% at 50% 50%);
+}
+
+.headshots {
+    position: relative;
+    margin-bottom: 30px;
 }
